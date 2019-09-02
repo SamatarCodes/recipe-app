@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link href="./fontawesome/css/all.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles/styles.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="main-card1">
+    <div class="wrapper">
+      <div class="title">
+        <input type="text" id="title-input" name="title-input" placeholder="Enter Recipe name" />
+      </div>
+      <div class="body">
+        <textarea name="body-input" id="body-input" cols="40" rows="10" placeholder="Add recipe instruction"></textarea>
+      </div>
+      <div class="ingredients-section">
+        <h2>Ingredients</h2>
+        <div class="list_ingredients"></div>
+        <input type="text" id="ingredient" name="ingredient" placeholder="add an ingredient" />
+        <!-- <i class="fas fa-plus fa-lg" id="add_ingredient"></i> -->
+        <!-- <i class="fas fa-plus-circle" id="add_ingredient"></i> -->
+        <!-- <button id="add_ingredient">Add ingredient</button> -->
+      </div>
+      <div id="edit-buttons">
+        <button id="delete-button">Delete</button>
+        <i class="fas fa-home fa-lg" id="home-button"></i>
+        <!-- <button id="home-button">Home</button> -->
+      </div>
+    </div>
+  </div>
+
+  <script src="./src/uuidv4.js"></script>
+  <script src="./src/recipe_functions.js"></script>
+  <script src="./src/edit.js"></script>
+</body>
+
+</html>
